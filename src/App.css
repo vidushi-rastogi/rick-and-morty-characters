@@ -1,0 +1,49 @@
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.list-container {
+  margin-top: 20px;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+.list-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.list-item {
+  border-bottom: 1px solid rgb(168, 165, 165);
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.redo-container {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.redo-icon {
+  color: rgb(95, 197, 0);
+}
+.redo-icon:hover {
+  color: rgb(57, 118, 0)
+}
+
+.pagination-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
